@@ -1,0 +1,22 @@
+Package: BiocNIHIntra
+Date: 2022-10-01
+Title: BiocNIHIntra: a package to support an AnVIL training activity
+	for intramural researchers at NIH
+Version: 0.0.0
+Authors@R: 
+    c(person(
+        "Vincent", "Carey", role = c("aut", "cre"),
+        email = "stvjc@channing.harvard.edu",
+        comment = c(ORCID = "0000-0003-4046-0063")
+     )
+    )
+Description: This package addresses basic topics in the analysis of
+	single cell RNA-seq and CITE-seq studies.
+License: Artistic-2.0
+Encoding: UTF-8
+Depends: R (>= 4.2), dplyr, celldex, TENxPBMCData, SingleR, irlba, scater,
+	scales, ggplot2, devtools, plotly
+Suggests: knitr, testthat, DT
+VignetteBuilder: knitr
+biocViews: Infrastructure
+RoxygenNote: 7.2.3
