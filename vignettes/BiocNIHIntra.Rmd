@@ -1,0 +1,35 @@
+---
+title: "BiocNIHIntra: Using Bioconductor on AnVIL -- examples for NIH Intramural Investigators"
+author: "Vincent J. Carey, stvjc at channing.harvard.edu"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+vignette: >
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteIndexEntry{BiocNIHIntra: Using Bioconductor on AnVIL -- examples for NIH Intramural Investigators}
+  %\VignetteEncoding{UTF-8}
+output:
+  BiocStyle::html_document:
+    highlight: pygments
+    number_sections: yes
+    theme: united
+    toc: yes
+---
+
+# Purpose
+
+This package provides a very brief introduction to
+the use of Bioconductor packages and functions to
+work with single cell RNA-seq data.  
+
+Tasks in the first vignette include
+
+- learning about SummarizedExperiment to manage multiple samples
+constituting reference expression data on selected cell types
+- learning about SingleCellExperiment to work with expression
+patterns on thousands of cells
+- using the SingleR package and function to train a 
+classifier of cell types and label a sample of PBMCs
+assayed with TENx
+- projecting expression patterns for visualization using approximate PCA
+- using plotly to visualize clusters with labels
+
+See "Articles" for further details.
